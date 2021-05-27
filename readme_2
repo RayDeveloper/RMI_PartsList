@@ -1,0 +1,17 @@
+to run program:
+1)Launch command line prompt
+2) Navigate to the directory of where the files are located
+3) Do the following commands:
+	cd \rmic\objects
+	javac *.java 
+	start rmiregistry 
+	start java PersonServer
+	java PersonClient localhost 
+program has been executed
+
+You can also run directly from JCreator:
+
+1) Open all files in individual windows
+2) open cmd, and navigate to the folder and do the following command "start rmiregistry"
+3) Run the PersonServer program , then run the ClientServer program
+4) program has been executed
