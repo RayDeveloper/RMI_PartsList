@@ -1,4 +1,4 @@
-My program executed very good. I think I completed 100% of the requirements. If the wrong option is chosen an appropriate message is sent. If the part name is not found, an appropriate message is sent to the client is entered. The programs were tested on a home network using one machine (192.168.100.187). This machine acted as both the client and server.
+If the wrong option is chosen an appropriate message is sent. If the part name is not found, an appropriate message is sent to the client is entered. The program wwas tested on a home network using one machine (192.168.100.187). This machine acted as both the client and server.
 
 **Input file**
 =
@@ -76,6 +76,40 @@ The output displays the part name along with the total number of units sold.
 ![image](https://user-images.githubusercontent.com/12537673/119756619-c758ce80-be71-11eb-9aad-f92517d26416.png)
 
 ![image](https://user-images.githubusercontent.com/12537673/119756633-cc1d8280-be71-11eb-9921-22e42e74e573.png)
+
+Performance
+==
+
+Response time deals with the total time between an initial request for service from the user and the fulfillment of that request by the server. Low response times are best as they are very critical to the success of the program. This program response time were calculated using the followings program commands. Each transaction had a start and end variable which were of variable type “long”. The programs were tested on a home network using one machine (192.168.100.187). This machine acted as both the client and server.
+
+![image](https://user-images.githubusercontent.com/12537673/119757786-777b0700-be73-11eb-962c-3d6db36efe59.png)
+
+
+![image](https://user-images.githubusercontent.com/12537673/119757790-7a75f780-be73-11eb-9617-666b6205538f.png)
+
+
+In the screenshot we see that before the method is called there is a “start” variable that tracks the start time of the response. The “end” variable tracks the end of the transaction. Once that has been done it does a calculation using the start and end times and writes it to the file “output.dat” along with the date and time stamp. The time is given in seconds.
+
+Transaction 1(Getting selling price of a part)
+ 
+![image](https://user-images.githubusercontent.com/12537673/119757827-8a8dd700-be73-11eb-869e-a3ee35a6797e.png)
+
+Transaction 2(viewing the entire parts list)
+
+![image](https://user-images.githubusercontent.com/12537673/119757846-9083b800-be73-11eb-964d-566d1218ece9.png)
+
+Transaction 3(changing the selling price of a part)]
+
+![image](https://user-images.githubusercontent.com/12537673/119757865-97aac600-be73-11eb-9893-76994e6184d8.png)
+
+Transaction 4(deleting a part)
+
+![image](https://user-images.githubusercontent.com/12537673/119757882-9f6a6a80-be73-11eb-9de8-5e1f37b9e502.png)
+
+Transaction 5(get the total profit)
+
+![image](https://user-images.githubusercontent.com/12537673/119757908-a6917880-be73-11eb-98d2-d1a86787da77.png)
+
 
 
 
